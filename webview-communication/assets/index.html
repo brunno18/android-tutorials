@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WebViewCommunication</title>
+<script type="text/javascript">
+/*<![CDATA[*/
+function callFromApp() {
+	var component = document.getElementById("input");
+	component.value = component.value + "JavaScript called from app!\n";
+} 
+/*]]>*/
+</script>
+</head>
+<body>
+<p></p>
+<a href="korri://toast/">Custom protocol URL</a>
+</p>
+<p>
+<button onclick="interface.callFromJS()">JavaScript interface</button>
+</p>
+<p>
+<textarea rows="5" cols="30" id="input"></textarea>
+</p>
+</body>
+</html>
