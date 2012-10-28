@@ -1,0 +1,18 @@
+<resources>
+
+	<string name="app_name">Spinner Tutorial</string>
+	<string name="spinner_prompt">Choose an item</string>
+	<string name="simple_header">Simple Spinner</string>
+	<string name="custom_list_header">Custom list Spinner</string>
+	<string name="selection_header">Selection Spinner</string>
+
+	<string-array name="cities_array">
+		<item>Berlin</item>
+		<item>Helsinki</item>
+		<item>London</item>
+		<item>New York</item>
+		<item>Paris</item>
+		<item>Stockholm</item>
+	</string-array>
+
+</resources>

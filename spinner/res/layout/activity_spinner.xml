@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="5dp" >
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/simple_header" />
+
+	<Spinner
+		android:id="@+id/simple_spinner"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:entries="@array/cities_array"
+		android:prompt="@string/spinner_prompt"
+		tools:listitem="@android:layout/simple_spinner_item" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:text="@string/custom_list_header" />
+
+	<Spinner
+		android:id="@+id/custom_list_spinner"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:prompt="@string/spinner_prompt"
+		tools:listitem="@android:layout/simple_spinner_item" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:text="@string/selection_header" />
+
+	<Spinner
+		android:id="@+id/selection_spinner"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:entries="@array/cities_array"
+		android:prompt="@string/spinner_prompt"
+		tools:listitem="@android:layout/simple_spinner_item" />
+
+</LinearLayout>
