@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">RadioButton Tutorial</string>
+	<string name="option_africa">Africa</string>
+	<string name="option_america">America</string>
+	<string name="option_asia">Asia</string>
+	<string name="option_australia">Australia</string>
+	<string name="option_europe">Europe</string>
+
+</resources>

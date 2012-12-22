@@ -1,0 +1,43 @@
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	tools:context=".RadioButtonActivity" >
+
+	<RadioButton
+		android:id="@+id/option_africa"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="onRadioButtonClicked"
+		android:text="@string/option_africa" />
+
+	<RadioButton
+		android:id="@+id/option_america"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="onRadioButtonClicked"
+		android:text="@string/option_america" />
+
+	<RadioButton
+		android:id="@+id/option_asia"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="onRadioButtonClicked"
+		android:text="@string/option_asia" />
+
+	<RadioButton
+		android:id="@+id/option_australia"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="onRadioButtonClicked"
+		android:text="@string/option_australia" />
+
+	<RadioButton
+		android:id="@+id/option_europe"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="onRadioButtonClicked"
+		android:text="@string/option_europe" />
+
+</RadioGroup>
