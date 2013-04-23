@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Toast Tutorial</string>
+	
+	<string name="short_button_text">Short Toast</string>
+	<string name="long_button_text">Long Toast</string>
+	<string name="gravity_button_text">Gravity Toast</string>
+	<string name="gravity_toast_text">Custom Gravity!</string>
+	
+	<string name="custom_button_text">Custom Toast</string>
+	<string name="custom_toast_text">Toast with custom contents!</string>
+
+</resources>

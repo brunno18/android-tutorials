@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/black"
+	tools:context=".ToastActivity" >
+
+	<Button
+		android:id="@+id/shortButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:onClick="onShortClick"
+		android:text="@string/short_button_text" />
+
+	<Button
+		android:id="@+id/longButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/shortButton"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:onClick="onLongClick"
+		android:text="@string/long_button_text" />
+
+	<Button
+		android:id="@+id/gravityButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/longButton"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:onClick="onGravityClick"
+		android:text="@string/gravity_button_text" />
+	
+	<Button
+		android:id="@+id/customButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/gravityButton"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:onClick="onCustomClick"
+		android:text="@string/custom_button_text" />
+
+</RelativeLayout>
