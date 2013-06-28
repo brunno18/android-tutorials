@@ -8,3 +8,4 @@ This repository contains the following Android tutorial projects from http://www
 * radiobutton           - RadioButton component tutorial
 * toast                 - Toast tutorial
 * asynctask             - AsyncTask tutorial
+* httprequest           - Http request tutorial
