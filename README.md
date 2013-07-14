@@ -9,3 +9,4 @@ This repository contains the following Android tutorial projects from http://www
 * toast                 - Toast tutorial
 * asynctask             - AsyncTask tutorial
 * httprequest           - Http request tutorial
+* network-connection    - Is network connection available tutorial
