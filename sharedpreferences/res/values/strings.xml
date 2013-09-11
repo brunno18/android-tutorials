@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SharedPreferences Tutorial</string>
+    
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+
+</resources>
