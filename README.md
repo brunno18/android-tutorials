@@ -10,3 +10,4 @@ This repository contains the following Android tutorial projects from http://www
 * asynctask             - AsyncTask tutorial
 * httprequest           - Http request tutorial
 * network-connection    - Is network connection available tutorial
+* sharedpreferences     - SharedPreferences tutorial
