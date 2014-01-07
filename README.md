@@ -11,3 +11,4 @@ This repository contains the following Android tutorial projects from http://www
 * httprequest           - Http request tutorial
 * network-connection    - Is network connection available tutorial
 * sharedpreferences     - SharedPreferences tutorial
+* selfsignedcert        - Self signed certificate tutorial

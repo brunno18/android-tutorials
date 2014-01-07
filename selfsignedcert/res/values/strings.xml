@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SelfSignedCert Tutorial</string>
+    <string name="open_connection_button">Open connection</string>
+
+</resources>
