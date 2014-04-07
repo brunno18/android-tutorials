@@ -12,3 +12,4 @@ This repository contains the following Android tutorial projects from http://www
 * network-connection    - Is network connection available tutorial
 * sharedpreferences     - SharedPreferences tutorial
 * selfsignedcert        - Self signed certificate tutorial
+* traffictstats         - Traffic stats tutorial

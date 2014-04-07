@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.korri.tutorial.android.trafficstats.TrafficStatsActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/button_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Refresh"
+        android:onClick="onRefreshClick" />
+
+    <TextView
+        android:id="@+id/title_mobile_rx_bytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_refresh"
+        android:layout_marginTop="25dp"
+        android:text="Mobile rx (bytes)" />
+
+    <TextView
+        android:id="@+id/mobile_rx_bytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title_mobile_rx_bytes"
+        android:layout_alignBottom="@+id/title_mobile_rx_bytes"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/title_mobile_rx_bytes"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/title_mobile_rx_packets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_mobile_rx_bytes"
+        android:layout_marginTop="5dp"
+        android:text="Mobile rx (packets)" />
+
+    <TextView
+        android:id="@+id/mobile_rx_packets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title_mobile_rx_packets"
+        android:layout_alignBottom="@+id/title_mobile_rx_packets"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/title_mobile_rx_packets"
+        android:text="0" />
+    
+    <TextView
+        android:id="@+id/title_total_rx_bytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_mobile_rx_packets"
+        android:layout_marginTop="5dp"
+        android:text="Total rx bytes" />
+
+    <TextView
+        android:id="@+id/total_rx_bytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title_total_rx_bytes"
+        android:layout_alignBottom="@+id/title_total_rx_bytes"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/title_total_rx_bytes"
+        android:text="0" />
+    
+    <TextView
+        android:id="@+id/title_total_rx_packets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/total_rx_bytes"
+        android:layout_marginTop="5dp"
+        android:text="Total rx bytes" />
+
+    <TextView
+        android:id="@+id/total_rx_packets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title_total_rx_packets"
+        android:layout_alignBottom="@+id/title_total_rx_packets"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/title_total_rx_packets"
+        android:text="0" />
+    
+</RelativeLayout>
