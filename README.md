@@ -13,3 +13,4 @@ This repository contains the following Android tutorial projects from http://www
 * sharedpreferences     - SharedPreferences tutorial
 * selfsignedcert        - Self signed certificate tutorial
 * traffictstats         - Traffic stats tutorial
+* keyboardsubmit        - Submit form with virtual keyboard tutorial
