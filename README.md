@@ -14,3 +14,4 @@ This repository contains the following Android tutorial projects from http://www
 * selfsignedcert        - Self signed certificate tutorial
 * traffictstats         - Traffic stats tutorial
 * keyboardsubmit        - Submit form with virtual keyboard tutorial
+* uptime                - Show device uptime
