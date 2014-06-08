@@ -15,3 +15,4 @@ This repository contains the following Android tutorial projects from http://cap
 * traffictstats         - Traffic stats tutorial
 * keyboardsubmit        - Submit form with virtual keyboard tutorial
 * uptime                - Show device uptime
+* batteryinfo           - Get battery information from device
