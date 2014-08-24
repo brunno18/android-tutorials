@@ -16,3 +16,4 @@ This repository contains the following Android tutorial projects from http://cap
 * keyboardsubmit        - Submit form with virtual keyboard tutorial
 * uptime                - Show device uptime
 * batteryinfo           - Get battery information from device
+* shortcuts             - Install and remove home screen shortcuts
